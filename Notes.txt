@@ -1,0 +1,25 @@
+ords tested with the speech API
+
+bottle-
+refrigerator
+sofa
+bag
+**chair,door-not able to correctly convert(shows 4 instead)
+dog
+cat
+
+
+
+Google api -good performance(speechrecog1.py file)
+sphinx-slow and inaccurate(speechrecog3.py file)
+ibm-watson-better performance than sphinx,not as good as google api(speechrecog2.py file)
+
+
+                Google api         sphinx            ibm-watson
+bottle           bottle             throttle          bottle
+refirgerator    refrigerator        refree           refrigerator
+sofa             sofa               sopha             super
+bag              bag                bagh             bagh
+chair            chai               chance           chard
+dog              dog                 dog               dog
+door             dor                  -                 4
