@@ -1,0 +1,10 @@
+Smart Glove for the visually challenged
+
+
+1)Implement speech recognition using google speech API to recognise the object the user wants to find
+
+2)Implement text to audio using gTTS to speak the output of each step
+
+3)Detect objects the in camera frame and display "object found" or "object not found"
+
+4)If object is found - Compute the coordinates and use it to guide the user to the object
