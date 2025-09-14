@@ -5,21 +5,36 @@ This project combines **real-time object detection**, **voice recognition**, and
 ## Project Structure
 
 project-root/
+
 │
+
 ├── src/
+
 │ └── real_time_voice_guided_object_detection.py # Main script
+
 │
+
 ├── scripts/
+
 │ ├── object_detection_utils.py # Modular utility functions (e.g., distance, marker detection)
+
 │ ├── voice_assistant.py # Voice recognition and TTS helpers
+
 │ └── ... # Other supporting scripts
+
 │
+
 ├── models/
+
 │ ├── MobileNetSSD_deploy.caffemodel # Pre-trained Caffe model
+
 │ └── MobileNetSSD_deploy.prototxt.txt # Model architecture
+
 │
 ├── requirements.txt
+
 ├── README.md
+
 ├── found.jpg # Reference image for focal length calibration
 
 
