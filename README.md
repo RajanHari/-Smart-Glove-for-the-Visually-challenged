@@ -17,9 +17,12 @@ project-root/
 │ └── real_time_voice_guided_object_detection.py # Main script
 │
 ├── scripts/
-│ ├── object_detection_utils.py # Modular utility functions (e.g., distance, marker detection)
-│ ├── voice_assistant.py # Voice recognition and TTS helpers
-│ └── ... # Other supporting scripts
+│ ├── object_detection_withdistance.py
+│ ├── real_time_object_detection.py 
+│ └── speechrecog1.py
+│ └── speechrecog2.py
+│ └── speechrecog3.py
+│ └── Text_to_speech.py
 │
 ├── models/
 │ ├── MobileNetSSD_deploy.caffemodel # Pre-trained Caffe model
