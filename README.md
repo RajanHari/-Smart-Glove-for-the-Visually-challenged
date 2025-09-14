@@ -10,6 +10,7 @@ This project combines **real-time object detection**, **voice recognition**, and
 <details>
 <summary>📁 <strong>Project Structure</strong> (click to expand)</summary>
 
+``` bash
 project-root/
 │
 ├── src/
@@ -28,6 +29,7 @@ project-root/
 ├── README.md
 └── found.jpg # Reference image for focal length calibration
 
+```
 
 </details>
 
